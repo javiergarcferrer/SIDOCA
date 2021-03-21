@@ -42,11 +42,9 @@ iframe {
 .email{
   background-color: rgba(0, 38, 253, 0.438);
   color: black;
-  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
 }
@@ -54,13 +52,11 @@ iframe {
 .phone{
   background-color: rgba(80, 253, 0, 0.589);
   color: black;
-  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 10px;
 }
 
 .map {
@@ -68,11 +64,10 @@ iframe {
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  padding: 1em;
+  font-size: 1em;
+  width: 1em;
   text-align: center;
-  text-decoration: none;
   border-radius: 50%;
 }
 
