@@ -1,2 +1,2 @@
 # SIDOCA
-Pagina oficial de la empresa Suplidora Industrial Dominicana
+Pagina oficial de la empresa Suplidora Industrial Dominicana localizada en Santo Domingo, Republica Dominicana

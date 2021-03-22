@@ -41,44 +41,33 @@ iframe {
 
 .email{
   background-color: rgba(0, 38, 253, 0.438);
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 16px;
 }
 
 .phone{
   background-color: rgba(80, 253, 0, 0.589);
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 10px;
 }
 
 .map {
   border: 0.5em solid rgba(30, 8, 223, 0.199);
 }
 
-.fa {
-  padding: 1em;
+.fa {  
   font-size: 1em;
-  width: 1em;
-  text-align: center;
-  border-radius: 50%;
-}
+  padding: 1em;  
+  text-align: center;  
+  margin: 1em;  
+  width: 1em;  
+  border-radius: 1em;
+}  
 
-.fa-instagram {
-  background: linear-gradient(45deg, #406DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
-  color: white;
-}
+.fa-instagram {  
+  background: #125688;  
+  color: white;  
+}  
 
-.fa:hover {
-    opacity: 0.8;
-}
+.fa:hover {  
+  opacity: 0.9;  
+}  
 
 /* 
 ========================
@@ -165,4 +154,12 @@ iframe {
 .btn-catalog:hover::after {
 	opacity: 1;
 	transform: scale(1,1);
+}
+
+footer{
+  position: relative;
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
