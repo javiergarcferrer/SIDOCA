@@ -63,7 +63,6 @@ iframe {
   margin-bottom: 0.5em;
 }
 .fa-phone{
-  margin-bottom: 0.2em;
 }
 .fab:hover, .fas:hover {  
   opacity: 0.5;  
@@ -71,7 +70,7 @@ iframe {
   transition: 0.25s;
 }  
 .tooltip {
-  position:relative;
+  position: relative;
 }
 .tooltip:before {
   content: attr(data-text);
