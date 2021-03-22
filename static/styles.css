@@ -39,34 +39,17 @@ iframe {
   width: 80%;
 }
 
-.email{
-  background-color: rgba(0, 38, 253, 0.438);
-}
-
-.phone{
-  background-color: rgba(80, 253, 0, 0.589);
-}
-
 .map {
   border: 0.5em solid rgba(30, 8, 223, 0.199);
 }
 
-.fa {  
-  font-size: 1em;
-  padding: 1em;  
-  text-align: center;  
-  margin: 1em;  
-  width: 1em;  
-  border-radius: 1em;
-}  
+.fab, .fas {
+  font-size: 4em;
+  margin-bottom: 0.5em;
+}
 
-.fa-instagram {  
-  background: #125688;  
-  color: white;  
-}  
-
-.fa:hover {  
-  opacity: 0.9;  
+.fab:hover, .fas:hover {  
+  opacity: 0.75;  
 }  
 
 /* 
