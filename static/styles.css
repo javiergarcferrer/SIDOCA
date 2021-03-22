@@ -1,15 +1,22 @@
 html {
   height:100vh;
 }
-
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
 h3 {
+  vertical-align: middle;
   color: rgb(61, 61, 61);
+  margin-bottom: 1em;
 }
-
+a {
+  text-decoration: none !important;
+  color: black;
+}
+a:hover {
+  text-decoration:none;
+  cursor:pointer;
+}
 .frosted {
   backdrop-filter: blur(2px);
   background-color: rgba(180, 180, 180, 0.596);   
@@ -18,6 +25,13 @@ h3 {
   overflow: hidden;
   margin: 0.5em;
   width: 80%;
+  max-width: 800px;
+  position: relative;
+}
+.label {
+  font-size: 1.2em;
+  padding: 0.5em;
+  font-weight: bold;
 }
 h1 {
   -webkit-text-stroke:0.01em rgba(0, 0, 0, 0.473);
@@ -28,36 +42,49 @@ h1 {
   background-color: black;
   background-image: linear-gradient(90deg, rgba(233,39,0,1) 0%, rgba(240,233,0,1) 42%, rgba(18,159,2,1) 68%, rgba(0,4,119,1) 100%);
 }
-
 iframe {
   border-radius: 5px;
 }
-
 .contact-info {
   display: flex;
   justify-content: space-between;
   width: 80%;
 }
-
 .map {
   border: 0.5em solid rgba(30, 8, 223, 0.199);
 }
-
 .fab, .fas {
   font-size: 4em;
   margin-bottom: 0.5em;
 }
-
+.fa-phone{
+  margin-bottom: 0.2em;
+}
 .fab:hover, .fas:hover {  
-  opacity: 0.75;  
+  opacity: 0.5;  
+  color: beige;
 }  
-
+.tooltip {
+  position:relative;
+}
+.tooltip:before {
+  content: attr(data-text);
+  position:absolute;
+  border-radius:10px;
+  background:#000;
+  color: #fff;
+  text-align:center;
+  display:none;
+  width: 10em;
+}
+.tooltip:hover:before {
+  display:block;
+}
 /* 
 ========================
       BACKGROUND
 ========================
 */
-
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
@@ -69,16 +96,13 @@ iframe {
   top:0;
   z-index:-1;
 }
-
 .bg2 {
   animation-direction:alternate-reverse;
   animation-duration:4s;
 }
-
 .bg3 {
   animation-duration:5s;
 }
-
 @keyframes slide {
   0% {
     transform:translateX(-25%);
@@ -87,7 +111,6 @@ iframe {
     transform:translateX(25%);
   }
 }
-
 .btn {
 	line-height: 50px;
 	height: 50px;
@@ -95,7 +118,6 @@ iframe {
 	width: 250px;
 	cursor: pointer;
 }
-
 /* 
 ========================
       BUTTON CATALOG
@@ -115,7 +137,7 @@ iframe {
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	background-color: rgba(251, 255, 0, 0.24);
+	background-color: rgba(251, 255, 0, 0.103);
 	transition: all 0.3s;
 }
 .btn-catalog:hover::before {
@@ -138,7 +160,6 @@ iframe {
 	opacity: 1;
 	transform: scale(1,1);
 }
-
 footer{
   position: relative;
   display: table;
