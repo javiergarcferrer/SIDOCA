@@ -23,9 +23,9 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.466);   
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.349); 
   border-radius: 5px;
-  margin: 0.5em;
+  margin: 0.6em;
   width: 80%;
-  max-width: 800px;
+  max-width: 640px;
   position: relative;
 }
 .label {
@@ -46,18 +46,17 @@ h1 {
 }
 iframe {
   border-radius: 5px;
-  width: auto;
-  height: auto;
+  width: 80%;
+  height: fit-content;
 }
 .contact-info {
   display: flex;
   justify-content: space-between;
   width: 80%;
+  height: auto;
 }
 .map {
   border: 0.5em solid rgba(30, 8, 223, 0.199);
-  padding: 0.5em;
-  margin: 0.5em;
 }
 .fab, .fas {
   font-size: 4em;
