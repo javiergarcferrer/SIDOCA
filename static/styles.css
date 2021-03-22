@@ -22,7 +22,6 @@ a:hover {
   background-color: rgba(180, 180, 180, 0.596);   
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.349); 
   border-radius: 5px;
-  overflow: hidden;
   margin: 0.5em;
   width: 80%;
   max-width: 800px;
