@@ -8,11 +8,6 @@ html {
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-h3 {
-  vertical-align: middle;
-  color: rgb(61, 61, 61);
-  margin-bottom: 1em;
-}
 a {
   text-decoration: none !important;
   color: black;
@@ -93,7 +88,7 @@ iframe {
 */
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, rgb(1, 0, 48) 50%, rgb(255, 235, 147) 50%);
+  background-image: linear-gradient(-60deg, rgb(211, 211, 211) 50%, rgb(0, 81, 255) 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
