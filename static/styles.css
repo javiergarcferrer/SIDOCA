@@ -46,6 +46,8 @@ h1 {
 }
 iframe {
   border-radius: 5px;
+  width: auto;
+  height: auto;
 }
 .contact-info {
   display: flex;
