@@ -22,10 +22,10 @@ a:hover {
   width: 80%;
   max-width: 640px;
   position: relative;
+  transition: all 0.25s;
 }
 .frosted:hover{
   background-color: rgba(255, 255, 255, 0.7);
-  transition: 0.25s;
 }
 .frosted.list{
   padding: 0.001rem;
