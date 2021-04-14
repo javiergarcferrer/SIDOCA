@@ -1,3 +1,3 @@
 # SIDOCA
-Pagina oficial de la empresa Suplidora Industrial Dominicanalocalizada en Santo Domingo, Republica Dominicana
+Pure HTML/CSS mobile first design urgent/emergency website for SIDOCA
 [SIDOCA](https://javiergarcferrer.github.io/SIDOCA/)
